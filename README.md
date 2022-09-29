@@ -20,7 +20,7 @@
 
 ## Problem Statement
 
-
+This model prediction is meant to show people in supermarket business which item makes most sale
 
 
 
