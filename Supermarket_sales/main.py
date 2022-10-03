@@ -59,18 +59,18 @@ X = df[[input_features]]
 y = df[['total']]
 
 #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3) 
-print(X_train)
-xgb_r = xg.XGBRegressor()
+#print(X_train)
+#xgb_r = xg.XGBRegressor()
 
-xgb_r.fit(X_train, y_train)
-y_pred = xgb_r.predict(X_test)
-df1 = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred})
+#xgb_r.fit(X_train, y_train)
+#y_pred = xgb_r.predict(X_test)
+#df1 = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred})
 
-disp_col.subheader("mean absolute error is:")
-disp_col.write("Mean Absolute Error, y, prediction")
+#disp_col.subheader("mean absolute error is:")
+#disp_col.write("Mean Absolute Error, y, prediction")
 
-disp_col.subheader("mean squared error is:")
-disp_col.write("mean Squared Error, y, prediction")
+#disp_col.subheader("mean squared error is:")
+#disp_col.write("mean Squared Error, y, prediction")
 
-disp_col.subheader("root mean squared error is: ")
-disp_col.write("root mean squared error, y, prediction")
+#disp_col.subheader("root mean squared error is: ")
+#disp_col.write("root mean squared error, y, prediction")
