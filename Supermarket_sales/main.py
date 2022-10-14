@@ -14,10 +14,9 @@ dataset = st.container()
 features = st.container()
 model_Training = st.container()
 
-@st.cache
-def get_data():
-  df = pd.read_csv('data/carrefour.csv')
-  return df
+#@st.cache
+#def get_data():
+ ##return df
 
 with header:
   st.title("Supermarket Sales Prediction")
