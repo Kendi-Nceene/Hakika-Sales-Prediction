@@ -17,7 +17,6 @@ model_Training = st.container()
 @st.cache
 def get_data():
   df = pd.read_csv('data/carrefour.csv')
-
   return df
 
 with header:
@@ -29,6 +28,18 @@ with header:
   st.subheader("Product line distribution on Carrefour dataset")
   product_sale = pd.DataFrame(df['product_line'].value_counts())
   st.bar_chart(product_sale)
+
+  st.subheader("Customer Type")
+  customer = pd.DataFrame(df['customer_type'].value_counts())
+  st.bar_chart(customer)
+
+  st.subheader("Carrefour Branches")
+  branches = pd.DataFrame(df['branch'].value_counts())
+  st.bar_chart(branches)
+
+  st.subheader("payment method")
+  payment = pd.DataFrame(df['payment'].value_counts())
+  st.bar_chart(payment)
 with dataset:
     st.header("Carrefour sales dataset")
 
@@ -36,7 +47,21 @@ with dataset:
 with features:
     st.header("The features I created")
 
-    st.markdown('')
+    st.markdown('branch')
+    st.markdown('customer_type')
+    st.markdown('gender')
+    st.markdown('product_line')
+    st.markdown('unit_price')
+    st.markdown('quantity')
+    st.markdown('tax')
+    st.markdown('date')
+    st.markdown('time')
+    st.markdown('payment')
+    st.markdown('cog')
+    st.markdown('cogs')
+    st.markdown('gross_income')
+    st.markdown('rating')
+    st.markdown('total')
 
 with model_Training:
     st.header("Time to train the model")
@@ -49,28 +74,4 @@ with model_Training:
     sel_col.text('Here are the input features')
     sel_col.write(df.loc[:, df.columns!='total'])
     input_features = sel_col.text_input('Which feature should be used as input feature?','product_line')
-    
-if n_estimators == "No limit":
-    xg.XGBRegressor(max_depth = max_depth)
-else:
-    xg.XGBRegressor(max_depth = max_depth, n_estimators = n_estimators)
-
-X = df[[input_features]]
-y = df[['total']]
-
-#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3) 
-#print(X_train)
-#xgb_r = xg.XGBRegressor()
-
-#xgb_r.fit(X_train, y_train)
-#y_pred = xgb_r.predict(X_test)
-#df1 = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred})
-
-#disp_col.subheader("mean absolute error is:")
-#disp_col.write("Mean Absolute Error, y, prediction")
-
-#disp_col.subheader("mean squared error is:")
-#disp_col.write("mean Squared Error, y, prediction")
-
-#disp_col.subheader("root mean squared error is: ")
-#disp_col.write("root mean squared error, y, prediction")
+  
