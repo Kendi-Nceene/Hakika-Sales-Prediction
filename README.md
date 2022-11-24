@@ -1,6 +1,6 @@
 # Sales-Prediction
 ## Big-Mart SALES PREDICTION
-A project that does Data Analytics and applies machine learning algorithms to predict the outlet production sales.
+This project does Data Analytics and applies machine learning algorithms to predict the outlet production sales.
 
 ## NAME
 #### KENDI NCEENE
