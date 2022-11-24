@@ -1,5 +1,5 @@
 # Sales-Prediction
-## Big-Mart SALES PREDICTION
+## Supermarket Sales Prediction
 This project does Data Analytics and applies machine learning algorithms to predict the outlet production sales.
 
 ## NAME
