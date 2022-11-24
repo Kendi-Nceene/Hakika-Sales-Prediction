@@ -1,7 +1,6 @@
 # Sales-Prediction
-## SUPERMARKET SALES PREDICTION
-
-
+## Big-Mart SALES PREDICTION
+A project that does Data Analytics and applies machine learning algorithms to predict the outlet production sales.
 
 ## NAME
 #### KENDI NCEENE
