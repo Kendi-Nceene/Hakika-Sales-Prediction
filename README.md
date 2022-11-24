@@ -20,7 +20,9 @@
 
 ## Problem Statement
 
-This model prediction is meant to show people in supermarket business which item makes most sale
+The aim is to build a predictive model and find out the sales of each product at a particular store. Create a model by which Big Mart can analyse and predict the outlet production sales
+
+It is the perfect project for learning Data Analytics. In this projec the reader will come to know 1: Data Exploration 2: Data Cleaning 3: Feature Engineering 4: Creating Models
 
 
 
