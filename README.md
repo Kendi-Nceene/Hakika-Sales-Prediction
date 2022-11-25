@@ -1,51 +1,35 @@
-# Sales-Prediction
-## Supermarket Sales Prediction
+# Hakika Sales Prediction
+
 This project does Data Analytics and applies machine learning algorithms to predict the outlet production sales.
-
-## NAME
-#### KENDI NCEENE
-
-
-
-## SUPERVISORS
-#### SABURI KIMOTHO JOHN
-
 ## POWER LEARN PROJECT
 #### SOFTWARE DEVELOPMENT
 #### COHORT  1
+
+## NAME
+###### KENDI NCEENE
+
+## SUPERVISORS
+###### SABURI KIMOTHO JOHN
+######STANLEY MUNGA
 
 
 
 
 ## Problem Statement
-
-The aim is to build a predictive model and find out the sales of each product at a particular store. Create a model by which Big Mart can analyse and predict the outlet production sales
-
-It is the perfect project for learning Data Analytics. In this projec the reader will come to know 1: Data Exploration 2: Data Cleaning 3: Feature Engineering 4: Creating Models
-
-
-
-
-
-
+Sales Prediction is a problem that can be solved by using a machine learning technique.
+The machine learning technique that is used in this problem is called supervised learning.
+Supervised learning is one of the three types of machine learning techniques, and it involves training a model to perform a task based oninput data. The input data in this case are the past sales numbers, which are then used to predict future sales numbers.
+The goal of supervised machine learning is to find an equation relating the inputs and outputs so that when new inputs are given, we can predict what the outputs will be with more accuracy than if we were just guessing. This equation is called the “model” and there are many different ways to determine what it should look like for each specific problem
 
 
 ## General Objective
-To use a supervised  machine learning algorithm to make sales predictions.
+Building a machine learning algorithm to predict sales with the lowest Root Mean Squared Error(RMSE).
 
 ## Specific Objectives
-To determine which store makes the highest sales.
-To determine which gender makes purchases more.
-To determine which category of products make the highest amount of sales.
-To determine which mode of payment is used more.
-Research Questions
-Which gender makes more purchases?
-What category of products make the highest amount of sales?
-Is there a mode of payment that is used more?
-Which store makes the highest amount of sales.
-Business Success Criteria
+To investigate the distribution of fat content in the dataset.
+To investigate which outlet shop had the highest sales.
+To investigate the correlation between the target variable and other variables
 
-Successfully building a model that makes sales predictions with a low RMSE without overfitting.
 
 ## Project Plan
 We will use the Cross Industry Standard Process For Data mining(CRISP - DM) for conducting this research. 
