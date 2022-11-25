@@ -10,7 +10,7 @@ This project does Data Analytics and applies machine learning algorithms to pred
 
 ## SUPERVISORS
 ###### SABURI KIMOTHO JOHN
-######STANLEY MUNGA
+###### STANLEY MUNGA
 
 
 
