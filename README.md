@@ -106,13 +106,17 @@ The analysis was also conducted as per the objectives :
 
 Objective One :
 
-
-
-
 ## 5. Modeling
 
 In the modeling process, we performed both supervised and deep learning.
 The following models were used in the supervised learning :
+
+<details>
+    <summary>Kendi-Nceene</summary>
+    <ul>
+     <li><a href="https://www.github.com/Kendi-Nceene">Github</a></li>
+    </ul>
+</details>
 
 
 
