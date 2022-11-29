@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn Hakika-Sales-Prediction.wsgi --log-file -
