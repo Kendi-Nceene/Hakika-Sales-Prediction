@@ -14,8 +14,8 @@
 ### Stanley Munga
 
 
-BUSINESS UNDERSTANDING
-Business Overview
+## BUSINESS UNDERSTANDING
+## Business Overview
 
 
 Sales forecasting is a process in which a company can estimate their future sales based on previous data and industry comparisons. As a process, sales forecasting allows companies to utilize this data in order to produce accurate performance plans which can shape the way they do business.
