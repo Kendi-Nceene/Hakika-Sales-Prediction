@@ -29,7 +29,7 @@ Sales prediction is especially important for small businesses because losses due
 In this regard, a sales prediction model is vital for businesses. A sales forecast system is a model that predicts  company’s sales based on a few criterias of how the business runs
  
  
-Problem Statement
+## Statement
 
 
 
@@ -40,10 +40,10 @@ Problem Statement
 
 
 
-General Objective
+## General Objective
 To build a supervised  machine learning algorithm to make sales predictions.
 
-Specific Objectives
+## Specific Objectives
 To determine which store makes the highest sales.
 To determine which products sells the most
 To determine which category of products make the highest amount of sales.
@@ -57,7 +57,7 @@ Business Success Criteria
 
 Successfully building a model that makes sales predictions with a low RMSE.
 
-Project Plan
+## Project Plan
 We will use the Cross Industry Standard Process For Data mining(CRISP - DM) for conducting this research. 
 Assessing the Situation
 Resource Inventory
@@ -69,19 +69,19 @@ ii. Jupyter Notebook
 iii. Django
 
 
-Assumptions
+## Assumptions
 The data provided is correct and up to date
 
-Constraints
+## Constraints
 
 There are not many available datasets to use for the project.
 The time given for this project to be completed was not enough
 
-2. Data Understanding
+## 2. Data Understanding
 Data Understanding Overview
 In this section, we explore the dataset and identify the features of the data. In order to perform further analysis, the quality of data gathered is required.
 
-Data Description
+## Data Description
 
 The dataset we are using for analysis and exploration contains data sourced from hdx. 
 
